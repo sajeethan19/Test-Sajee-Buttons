@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import "./Button.css"
 
 function Button() {
   return (
     <div>
-        <button>Click Me</button>
+        <button className='sajeeBtn'>I am a Button</button>
     </div>
   )
 }
